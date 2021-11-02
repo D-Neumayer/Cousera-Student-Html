@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+h1{
+	font-size: 300%;
+}
+section{
+	padding: 10px;
+	 }
+body{
+	background: #E7E0DA;
+}
+h1, h2{
+	font-family: Copperplate, Papyrus, fantasy;
+	color: black;
+	text-align: center;
+}
+header > h2{
+	font-size: 200%;
+	border: brown 3px solid;
+	padding: 10px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+header li{
+	list-style: none;
+}
+div {
+	overflow: auto;
+	padding: 10px;
+	border: black 1px solid;
+	}
+
+
+@media(min-width: 992px){
+	section{
+		float: left;
+		width: 33.33%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.md-scr-1{
+		float: left;
+		width: 50%;
+	}
+	.md-scr-2{
+		float: left;
+		width: 100%;
+	}
+}
+
+@media(max-device-width: 767px){
+	.sm-scr-1{
+		width: 100%;
+	}
+}
+
+
+a:link, a:visited{
+	text-decoration: none;
+	border: 2px solid #86860d;
+	background-color: #CD853F;
+}
+a:hover, a:active{
+	background-color: blue;
+	color:white;
+}
+
+#Cafes{
+	background-color: #DC7633;
+}
+#Doces{
+	background-color: #F1948A;
+}
+#Salgados{
+	background-color: #F7DC6F ;
+}
+div p{
+	
+	font-size: 125%;
+	float: bottom;
+}
+div h2{
+	border: 1px black solid;
+	position: relative;
+	left: 70%;
+	margin-top: 0px;
+	font-size: 175%;
+	width: 30%;
+}
+#Title-cafe{
+	
+	background-color: #d68514;
+	text-align: center;
+}
+#Title-doces{
+	
+	background-color: #CB4335;
+	text-align: center;
+}
+	
+
+#Title-salgados{
+	background-color: #F1C40F;
+	text-align: center;
+}
