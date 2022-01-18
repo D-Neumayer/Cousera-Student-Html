@@ -1,0 +1,138 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	color: #fff;
+	background: url('../images/Coffee-background.jpg') chocolate;
+    background-size: 100% 1080px;
+	font-family: 'Oxygen', sans-serif;
+}
+.row{
+	margin: auto;
+}
+/** Header**/
+#header-nav{
+	background-color: #c07641;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	background: url('../images/Caminito_logo.jpg') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
+#collapsable-nav a{
+	font-size: 1.2em;
+
+}
+#collapsable-nav a span {
+	font-size: 1em;
+}
+#nav-list{
+    position: relative;
+    float: left;
+	margin-top: 10px;
+}
+#nav-list a {
+    color: black;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #986b4b;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+.container{
+    width: 100%;
+  margin: 0;
+    
+}
+
+/* End of Header */
+/* Start of Main Body*/
+#home-tiles{
+	position: relative;
+	padding-left: 10px;
+}
+.content-div {
+	font-size: 1.3em;
+	color: black;
+	background-color: blanchedalmond;
+	height: 400px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+}
+p{
+	text-align: center;
+}
+h1{
+	margin:auto;
+	text-align: center;
+	color: coral;
+	text-shadow: 2px 2px 2px black;
+}
+h2{
+	color: chocolate;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	text-shadow:1px 1px 1px black;
+	background-color: rgb(160, 37, 20) ;
+	height: 50px;
+}
+#realy-tall{
+	height: 1000px;
+}
+/* End of Main Body*/
+
+/* Media fixes*/
+@media (min-width: 992px) and (max-width: 1199px)  {
+    .navbar-brand h1{
+        font-size: 1.3em;
+    }
+    #logo-img{
+        background-size: 100px 100px;
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+@media (max-width: 767px){
+    .navbar-brand h1{
+        font-size: 1.3em;
+    }
+    
+}
